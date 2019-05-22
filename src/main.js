@@ -8,8 +8,9 @@ var chronoAvengers= ["Captain%20America:%20The%20First%20Avenger","Captain%20Mar
 "Captain%20America:%20Civil%20War","Black%20Panther","Spider-Man:%20Homecoming","Doctor%20Strange",
 "Ant-Man%20&%20The%20Wasp","Thor:%20Ragnarok","Avengers:%20Infinity%20War","Avengers:%20Endgame"]
 
-chronoAvengers.forEach(element=>{
-   fetch("http://www.omdbapi.com/?apikey=4bde1662&t="+element)
+var holi= ["tt0026578","tt0023456"];
+holi.forEach(element=>{
+   fetch("http://www.omdbapi.com/?apikey=4bde1662&i="+element)
    .then(res=>res.json())
    .then(data=>document.getElementById("root").innerHTML+=
    `<div>
@@ -43,3 +44,11 @@ chronoAvengers.forEach(element=>{
 // "Thor:%20Ragnarok"
 // "Avengers:%20Infinity%20War"
 // "Avengers:%20Endgame"
+
+
+// Alien%20vs%20Predator
+// Aliens%20vs.%20Predator:%20Requiem
+// Prometheus
+// Alien:%20Covenant
+// Alien
+// Aliens
