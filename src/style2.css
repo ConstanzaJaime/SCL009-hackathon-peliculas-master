@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap');
 body{
   
 color: #333;
@@ -6,15 +6,13 @@ background-color: black;
   
 }
 
-header h4{
+header h4,.startTextRelease,.startTextChrono{
   text-align: center;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: -20px;
 }
-h4{
- color: #bc52ce
-}
+
   
  header p{
    text-align: center;
@@ -75,14 +73,16 @@ h4{
   width: 2px;
   height: 100%;
   margin-left: -1px;
-  background: #bc52ce;
-  background: -moz-linear-gradient(top,  rgba(213,213,213,0) 0%, rgb(160, 105, 197) 35%, rgba(213,213,213,0) 100%);
-  background: -webkit-linear-gradient(top, rgba(213,213,213,0) 0%, rgb(160, 105, 197) 35%, rgba(213,213,213,0) 100%);
-  background: -o-linear-gradient(top,  rgba(213,213,213,0) 0%, rgb(160, 105, 197) 35%, rgba(213,213,213,0) 100%);
-  background: -ms-linear-gradient(top,  rgba(213,213,213,0) 0%, rgb(160, 105, 197) 35%, rgba(213,213,213,0) 100%);
-  background: linear-gradient(to bottom, rgba(213,213,213,0) 0%, rgb(160, 105, 197) 35%, rgba(213,213,213,0) 100%);
+  background:grey;
+  background: -moz-linear-gradient(top, rgba(83, 80, 80, 0.301) 2%, rgb(255, 255, 255) 35%, rgba(213,213,213,0) 100%);
+  background: -webkit-linear-gradient(top, rgba(83, 80, 80, 0.301) 2%, rgb(255, 255, 255) 35%, rgba(213,213,213,0) 100%);
+  background: -o-linear-gradient(top,  rgba(83, 80, 80, 0.301) 2%, rgb(255, 255, 255) 35%, rgba(213,213,213,0) 100%);
+  background: -ms-linear-gradient(top,  rgba(83, 80, 80, 0.301) 2%, rgb(255, 255, 255) 35%, rgba(213,213,213,0) 100%);
+  background: linear-gradient(to bottom, rgba(213,213,213,0) 0%, rgb(255, 255, 255) 35%, rgba(213,213,213,0) 100%);
   z-index: 5;
 }
+
+
 
 .timeline li {
   padding: 2em 0;
@@ -92,7 +92,7 @@ h4{
   width: 16px;
   height: 10px;
   position: absolute;
-  background: #bc52ce;
+  background: grey;
   z-index: 5;
   left: 0;
   right: 0;
@@ -103,7 +103,7 @@ h4{
 }
 
 .timeline .hexa:before {
-  border-bottom: 4px solid #bc52ce;
+  border-bottom: 4px solid grey;
   border-left-width: 8px;
   border-right-width: 8px;
   top: -4px;
@@ -112,7 +112,7 @@ h4{
 .timeline .hexa:after {
   border-left-width: 8px;
   border-right-width: 8px;
-  border-top: 4px solid #bc52ce;
+  border-top: 4px solid grey;
   bottom: -4px;
 }
 .direction-r {
@@ -168,7 +168,7 @@ h4{
 }
 
 .time {
-  background: #bc52ce;
+  background: grey;
   display: inline-block;
   padding: 8px;
 }
@@ -271,12 +271,13 @@ h4{
 
 
 
-
+/* TIME LINE CSS */
 .circle{
   border-radius: 50%;
   height: 150px;
   width: 150px;
-  border: 10px outset #bc52ce;
+  border: 10px outset grey;
+  margin-top:4px;
 }
 .logoMovie{
   max-width:200px;
@@ -286,10 +287,114 @@ h4{
     margin-right: auto;
     margin-bottom: 20px;
   }
-  .startText{
+  .startTextChrono,.startTextRelease.chronoTitle{
     text-align: center;
-<<<<<<< HEAD
+    color:#FFDC74;
   }
-=======
+  
+
+    .chronoTitle,.releaseTitle{
+      color: #FFDC74;
+      font-size: 40px;
+      font-family: 'Alegreya Sans', sans-serif;
+      text-align: center;
+
+    }
+.startTextRelease,.releaseTitle{
+    color:#F6C1FF;
   }
->>>>>>> 004947d0f935f0ddf398586ce7d94fdf78b10fc0
+/* MODAL TIME LINE CSS */
+
+.modalTimeLineTitle,.modalTImeLineText{
+font-size: 30px;
+margin: 5px;
+font-family: 'Alegreya Sans', sans-serif;
+font-weight: bold;
+  }
+
+  .modalTImeLineText{
+    font-size: 18px;
+    text-align: left;
+    font-weight: normal;
+  }
+
+  
+
+
+ 
+
+  body {
+      font-family: 'Alegreya Sans', sans-serif;
+      background-color: #000000;
+  }
+  
+  #nav-menu {
+      background-color: #000000 !important;
+      font-size: 30px;
+  }
+  
+  .logo-nav {
+      width: auto;
+      height: 10vh;
+      margin-right: 20px;
+  }
+  
+  .logo-request {
+      width: auto;
+      height: 20vh;
+  }
+  
+  hr {
+      border: 0;
+      height: 0;
+      box-shadow: 0 1.5px 1.5px 1.5px;
+      color: #ffffff;
+  }
+  
+  .yellow {
+      color: #FFDC74 !important;
+  }
+  
+  .title-request {
+      font-size: 50px;
+  }
+  
+  .request-box {
+      background-color: rgba(255, 255, 255, .2);
+      padding: 20px;
+      border-radius: 5px
+  }
+  
+  .btn {
+      background-color: #712B7C;
+      color: #FFDC74;
+      border-color: #712B7C;
+  }
+  
+  .btn:hover {
+      background-color: #787B7C;
+      color: black;
+      border-color: #787B7C;
+  }
+  
+  .btn-primary {
+      background-color: #712B7C;
+      color: #FFDC74;
+      border-color: #712B7C;
+      border-radius: 5px
+  }
+  
+  .btn-primary:hover {
+      background-color: #787B7C;
+      color: black;
+      border-color: #787B7C;
+  }
+  
+  footer#footer {
+      margin-top: 20px;
+  }
+  
+  div.footer-text {
+      text-align: center;
+      margin-top: 30px;
+  }
