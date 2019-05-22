@@ -93,8 +93,8 @@ La feria de demos se realizará el día de las presentaciones, consiste en la di
 
 
 #Título bonini
-
-|------SD-------|
+|This is what you get, when you mess|
+|-------------|
 | Claudia | 
 | Carla Rivera |
 | Constanza Jaime |
@@ -106,6 +106,13 @@ Guía de estilos
 Flujos de usuario
 QA y testing
 Historias de Usuario-Definition of done
+
+
+Con la información recopilada de los usuarios
+[Primer prototipo en Figma](https://www.figma.com/proto/EdgVjn8Cd8CLWHGYY6A9euPn/HACKATON?node-id=40%3A1&scaling=min-zoom)
+[Iteración Prototipo Figma](https://www.figma.com/proto/Au57j3aUZFgwbR8Y4UymxC/HACKATON-(Copy)?scaling=min-zoom)
+
+
 ### 1.-
 ### 2.-
 ### 3.-
@@ -113,12 +120,18 @@ Historias de Usuario-Definition of done
 ### 5.-
 ### 6.-
 
-|       |   Actividades desarrolladas         |  Viernes                     |Miércoles                      | Jueves                                |
-|------ | ------------------| ---------------------------- | ----------------------------- | ------------------------------------- |
-| Carla Rivera  |                   |  Daily por squad             |  Daily por squad              | Daily por squad                       |
-| Claudia Sirvent|                   |  Hackeo                      |  Hackeo                       | Hackeo/Detalles finales               |         
-| Constanza Jaime |                   |                              |                               | Inscripción de aplicaciones           |
-| 11:00 |                   |                              |                               | Feria de demostraciones               |           
-| 12:00 | Kick off hackaton |                              |                               | Presentación de mejores squads        |
-|>13:00 |Sesión de planificación|                          |                               | Deliberación del jurado               |
-| 20:00 |                   |                              |                               |             
+|Integrantes|Carla Rivera|Claudia Sirvent|Constanza Jaime|
+|--------|---------       | ---------|-----------------| 
+| Actividades desarrolladas
+| | | | |
+| | | | | 
+| | | | | 
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
