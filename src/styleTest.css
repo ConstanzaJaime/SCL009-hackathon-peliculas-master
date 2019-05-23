@@ -1,25 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap');
-body{
-  
-color: #333;
-background-color: black;
-  
+
+body {
+  color: #333;
+  background-color: black;
 }
 
-header h4,.startTextRelease,.startTextChrono{
+header h4,
+.startTextRelease,
+.startTextChrono {
   text-align: center;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: -20px;
 }
 
-  
- header p{
-   text-align: center;
-   margin-bottom: 0;
- }
+header p {
+  text-align: center;
+  margin-bottom: 0;
+}
 
-.hexa{
+.hexa {
   border: 0px;
   float: left;
   text-align: center;
@@ -32,11 +32,11 @@ header h4,.startTextRelease,.startTextChrono{
   margin-top: 15px;
 }
 
-.hexa:before{
-  content: ""; 
-  position: absolute; 
-  left: 0; 
-  width: 0; 
+.hexa:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
   height: 0;
   border-bottom: 15px solid #f0f0f0;
   border-left: 30px solid transparent;
@@ -44,11 +44,11 @@ header h4,.startTextRelease,.startTextChrono{
   top: -15px;
 }
 
-.hexa:after{
-  content: ""; 
-  position: absolute; 
-  left: 0; 
-  width: 0; 
+.hexa:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
   height: 0;
   border-left: 30px solid transparent;
   border-right: 30px solid transparent;
@@ -73,22 +73,20 @@ header h4,.startTextRelease,.startTextChrono{
   width: 2px;
   height: 100%;
   margin-left: -1px;
-  background:grey;
-  background: -moz-linear-gradient(top, rgba(83, 80, 80, 0.301) 2%, rgb(255, 255, 255) 35%, rgba(213,213,213,0) 100%);
-  background: -webkit-linear-gradient(top, rgba(83, 80, 80, 0.301) 2%, rgb(255, 255, 255) 35%, rgba(213,213,213,0) 100%);
-  background: -o-linear-gradient(top,  rgba(83, 80, 80, 0.301) 2%, rgb(255, 255, 255) 35%, rgba(213,213,213,0) 100%);
-  background: -ms-linear-gradient(top,  rgba(83, 80, 80, 0.301) 2%, rgb(255, 255, 255) 35%, rgba(213,213,213,0) 100%);
-  background: linear-gradient(to bottom, rgba(213,213,213,0) 0%, rgb(255, 255, 255) 35%, rgba(213,213,213,0) 100%);
+  background: grey;
+  background: -moz-linear-gradient(top, rgba(83, 80, 80, 0.301) 2%, rgb(255, 255, 255) 35%, rgba(213, 213, 213, 0) 100%);
+  background: -webkit-linear-gradient(top, rgba(83, 80, 80, 0.301) 2%, rgb(255, 255, 255) 35%, rgba(213, 213, 213, 0) 100%);
+  background: -o-linear-gradient(top, rgba(83, 80, 80, 0.301) 2%, rgb(255, 255, 255) 35%, rgba(213, 213, 213, 0) 100%);
+  background: -ms-linear-gradient(top, rgba(83, 80, 80, 0.301) 2%, rgb(255, 255, 255) 35%, rgba(213, 213, 213, 0) 100%);
+  background: linear-gradient(to bottom, rgba(213, 213, 213, 0) 0%, rgb(255, 255, 255) 35%, rgba(213, 213, 213, 0) 100%);
   z-index: 5;
 }
-
-
 
 .timeline li {
   padding: 2em 0;
 }
 
-.timeline .hexa{
+.timeline .hexa {
   width: 16px;
   height: 10px;
   position: absolute;
@@ -96,8 +94,8 @@ header h4,.startTextRelease,.startTextChrono{
   z-index: 5;
   left: 0;
   right: 0;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   top: -30px;
   margin-top: 0;
 }
@@ -115,6 +113,7 @@ header h4,.startTextRelease,.startTextChrono{
   border-top: 4px solid grey;
   bottom: -4px;
 }
+
 .direction-r {
   float: none;
   width: 100%;
@@ -129,13 +128,14 @@ header h4,.startTextRelease,.startTextChrono{
 .flag {
   position: relative;
   display: inline;
-  background: rgb(255,255,255);
+  background: rgb(255, 255, 255);
   font-weight: 600;
   z-index: 15;
   padding: 6px 10px;
   text-align: left;
   border-radius: 5px;
 }
+
 .direction-r .flag:after {
   content: "";
   position: absolute;
@@ -145,14 +145,15 @@ header h4,.startTextRelease,.startTextChrono{
   width: 0;
   margin-left: -8px;
   border: solid transparent;
-  border-bottom-color: rgb(255,255,255);
+  border-bottom-color: rgb(255, 255, 255);
   border-width: 8px;
   pointer-events: none;
 }
+
 .direction-r .flag {
-  -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
-  -moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
-  box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
 }
 
 .time-wrapper {
@@ -163,6 +164,7 @@ header h4,.startTextRelease,.startTextChrono{
   line-height: 1em;
   color: #fff;
 }
+
 .direction-r .time-wrapper {
   float: none;
 }
@@ -174,10 +176,11 @@ header h4,.startTextRelease,.startTextChrono{
 }
 
 .desc {
-  position: relative; 
+  position: relative;
   padding: 1em;
   z-index: 15;
 }
+
 .direction-r .desc {
   position: relative;
   margin: 1em 1em 0 1em;
@@ -185,7 +188,7 @@ header h4,.startTextRelease,.startTextChrono{
   z-index: 15;
 }
 
-@media(min-width: 2560px){
+@media(min-width: 2560px) {
   .timeline {
     width: 660px;
     margin: 0 auto;
@@ -199,12 +202,13 @@ header h4,.startTextRelease,.startTextChrono{
     clear: both;
     visibility: hidden;
   }
-  
+
   .timeline .hexa {
     left: -28px;
     right: auto;
     top: 8px;
   }
+
   .direction-r {
     position: relative;
     width: 310px;
@@ -215,15 +219,16 @@ header h4,.startTextRelease,.startTextChrono{
   .flag-wrapper {
     display: inline-block;
   }
-  
+
   .flag {
     font-size: 18px;
   }
+
   .direction-r .flag:after {
     top: 50%;
     margin-top: -8px;
     border: solid transparent;
-    border-right-color: rgb(254,254,254);
+    border-right-color: rgb(254, 254, 254);
     border-width: 8px;
     left: -8px;
   }
@@ -233,6 +238,7 @@ header h4,.startTextRelease,.startTextChrono{
     vertical-align: middle;
     margin: 0;
   }
+
   .direction-r .time-wrapper {
     float: right;
   }
@@ -246,7 +252,7 @@ header h4,.startTextRelease,.startTextChrono{
   }
 }
 
-@media(min-width: 2560px){
+@media(min-width: 2560px) {
   .timeline {
     width: 800px;
     margin: 0 auto;
@@ -269,136 +275,25 @@ header h4,.startTextRelease,.startTextChrono{
 }
 
 
-
-
 /* TIME LINE CSS */
-.circle{
+.circle {
   border-radius: 50%;
   height: 150px;
   width: 150px;
   border: 10px outset grey;
-  margin-top:4px;
+  margin-top: 4px;
 }
-.logoMovie{
-  max-width:200px;
-    height:auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-  }
-  .startTextChrono,.startTextRelease.chronoTitle{
-    text-align: center;
-<<<<<<< HEAD:src/styleTest.css
-    color:#FFDC74;
-  }
-  
 
-    .chronoTitle,.releaseTitle{
-      color: #FFDC74;
-      font-size: 40px;
-      font-family: 'Alegreya Sans', sans-serif;
-      text-align: center;
+.logoMovie {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
 
-    }
-.startTextRelease,.releaseTitle{
-    color:#F6C1FF;
-  }
-/* MODAL TIME LINE CSS */
-
-.modalTimeLineTitle,.modalTImeLineText{
-font-size: 30px;
-margin: 5px;
-font-family: 'Alegreya Sans', sans-serif;
-font-weight: bold;
-  }
-
-  .modalTImeLineText{
-    font-size: 18px;
-    text-align: left;
-    font-weight: normal;
-  }
-
-  
-
-
- 
-
-  body {
-      font-family: 'Alegreya Sans', sans-serif;
-      background-color: #000000;
-  }
-  
-  #nav-menu {
-      background-color: #000000 !important;
-      font-size: 30px;
-  }
-  
-  .logo-nav {
-      width: auto;
-      height: 10vh;
-      margin-right: 20px;
-  }
-  
-  .logo-request {
-      width: auto;
-      height: 20vh;
-  }
-  
-  hr {
-      border: 0;
-      height: 0;
-      box-shadow: 0 1.5px 1.5px 1.5px;
-      color: #ffffff;
-  }
-  
-  .yellow {
-      color: #FFDC74 !important;
-  }
-  
-  .title-request {
-      font-size: 50px;
-  }
-  
-  .request-box {
-      background-color: rgba(255, 255, 255, .2);
-      padding: 20px;
-      border-radius: 5px
-  }
-  
-  .btn {
-      background-color: #712B7C;
-      color: #FFDC74;
-      border-color: #712B7C;
-  }
-  
-  .btn:hover {
-      background-color: #787B7C;
-      color: black;
-      border-color: #787B7C;
-  }
-  
-  .btn-primary {
-      background-color: #712B7C;
-      color: #FFDC74;
-      border-color: #712B7C;
-      border-radius: 5px
-  }
-  
-  .btn-primary:hover {
-      background-color: #787B7C;
-      color: black;
-      border-color: #787B7C;
-  }
-  
-  footer#footer {
-      margin-top: 20px;
-  }
-  
-  div.footer-text {
-      text-align: center;
-      margin-top: 30px;
-  }
-=======
-  }
->>>>>>> cfaba667b20eb1376435e169cfeafbcb85b2ffa0:src/style2.css
+.startTextChrono,
+.startTextRelease.chronoTitle {
+  text-align: center;
+}
