@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styleTest.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>How to Watch</title>
+  <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+</head>
+
+<body>
+  <nav id="nav-menu" class="navbar navbar-expand-lg navbar-light bg-light">
+    <img class="logo-nav" src="img/logo_crop.png">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="btn-primary nav-link yellow" href="index.html"> HOME <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+      <a class="btn-primary nav-link yellow" href="request.html"> REQUEST A SAGA <span
+          class="sr-only">(current)</span></a>
+    </div>
+  </nav>
+  <hr>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <img class="logoMovie" src="img/logos/marvel_img.png" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="chronoTitle">
+          <p>CHRONOLOGICAL</p>
+        </div>
+        <div>
+          <h4 class="startTextChrono">START</h4>
+        </div>
+        <ul id="chronoTimeAlien" class="timeline">
+            <!-- Linea de orden cronológico -->
+          </ul>
+      </div>
+      <div class="col-md-6">
+        <div class="releaseTitle">
+          <p>RELEASE</p>
+        </div>
+        <div>
+          <h4 class="startTextRelease">START</h4>
+        </div>
+        <ul id="releaseTimeAlien" class="timeline">
+            <!-- Linea de orden de estreno -->
+          </ul>
+      </div>
+      <div id="root"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-2 mr-auto">
+        <a class="btn-primary nav-link yellow" href="index.html"> BACK <span class="sr-only">(current)</span></a>
+      </div>
+  </div>
+  <hr>
+  <footer id="footer">
+    <div class="yellow container-fluid footer-text">
+      <div class="row">
+        <div class="col">
+          <p id="footer-text">Created by Carla Rivera, Claudia Sirvent, Constanza Jaime</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div> <!-- FIN CONTAINER -->
+
+
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+</html>
