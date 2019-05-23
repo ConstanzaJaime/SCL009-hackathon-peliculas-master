@@ -1,11 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap');
 
 body{
     background-color: black;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 .topText{
-    font-family: 'Anaheim', sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
     color: white;
     font-size: 30px;
     font-weight: bold;
@@ -77,4 +78,49 @@ body{
 
     .carousel-inner{
         border:white 2px solid;
+    }
+
+    .btn {
+        background-color: #712B7C;
+        color: #FFDC74;
+        border-color: #712B7C;
+    }
+    
+    .btn:hover {
+        background-color: #787B7C;
+        color: black;
+        border-color: #787B7C;
+    }
+    
+    .btn-primary {
+        background-color: #712B7C;
+        color: #FFDC74;
+        border-color: #712B7C;
+        border-radius: 5px
+    }
+    
+    .btn-primary:hover {
+        background-color: #787B7C;
+        color: black;
+        border-color: #787B7C;
+    }
+    
+    footer#footer {
+        margin-top: 20px;
+    }
+    
+    div.footer-text {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .yellow {
+        color: #FFDC74 !important;
+    }
+
+    hr {
+        border: 0;
+        height: 0;
+        box-shadow: 0 1.5px 1.5px 1.5px;
+        color: #ffffff;
     }
