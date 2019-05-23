@@ -6,11 +6,11 @@ body{
 
 .topText{
     font-family: 'Anaheim', sans-serif;
-    color: white;
+    color: #FFDC74;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    background-color:#212121;
+    background-color: #712B7C;
     margin-top: 10px;
     margin-left: -10px;
     padding-bottom: 3px;
