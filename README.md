@@ -110,6 +110,7 @@ Historias de Usuario-Definition of done
 
 Con la información recopilada de los usuarios
 [Primer prototipo en Figma](https://www.figma.com/proto/EdgVjn8Cd8CLWHGYY6A9euPn/HACKATON?node-id=40%3A1&scaling=min-zoom)
+
 [Iteración Prototipo Figma](https://www.figma.com/proto/Au57j3aUZFgwbR8Y4UymxC/HACKATON-(Copy)?scaling=min-zoom)
 
 
