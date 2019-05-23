@@ -289,6 +289,7 @@ header h4,.startTextRelease,.startTextChrono{
   }
   .startTextChrono,.startTextRelease.chronoTitle{
     text-align: center;
+<<<<<<< HEAD:src/styleTest.css
     color:#FFDC74;
   }
   
@@ -398,3 +399,6 @@ font-weight: bold;
       text-align: center;
       margin-top: 30px;
   }
+=======
+  }
+>>>>>>> cfaba667b20eb1376435e169cfeafbcb85b2ffa0:src/style2.css
